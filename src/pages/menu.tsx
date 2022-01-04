@@ -1,11 +1,9 @@
-export default function Home() {
+import { Layout } from "@/layout/Layout";
+
+export default function Menu() {
   return (
-    <div className="container flex items-center p-4 mx-auto min-h-screen justify-center">
-      <main>
-        <h1 className="font-mono text-xl code">
-          Menu
-        </h1>
-      </main>
-    </div>
-  )
+    <Layout title="Menu">
+      <h1 className="py-16 text-xl">Menu</h1>
+    </Layout>
+  );
 }
