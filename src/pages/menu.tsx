@@ -3,7 +3,7 @@ export default function Home() {
     <div className="container flex items-center p-4 mx-auto min-h-screen justify-center">
       <main>
         <h1 className="font-mono text-xl code">
-          Welcome to <span className="text-gray-700">Quick & Easy</span>
+          Menu
         </h1>
       </main>
     </div>
