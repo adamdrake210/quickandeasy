@@ -19,7 +19,7 @@ export const Layout = ({ children, title }: LayoutProps) => {
         </title>
       </Head>
       <Navigation />
-      <main className="flex flex-col font-raleway p-4 mx-auto container max-w-6xl min-h-screen">
+      <main className="flex flex-col font-raleway p-4 py-16 mx-auto container max-w-6xl min-h-screen">
         {children}
       </main>
       <Footer />
