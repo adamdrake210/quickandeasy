@@ -27,9 +27,7 @@ export async function getGoogleSheetData() {
       range: "soups",
     });
 
-    const rows = handleSpreadSheetApiResponse(response.data.values);
-    console.log("rows: ", rows);
-    return rows;
+    return handleSpreadSheetApiResponse(response.data.values);
   } catch (err) {
     console.log(err);
   }
