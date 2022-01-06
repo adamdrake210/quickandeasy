@@ -1,3 +1,4 @@
+import { Heading1 } from "@/components/ui/typography/Heading1";
 import { Layout } from "@/layout/Layout";
 import { getGoogleSheetData } from "@/services/googleSheets";
 
@@ -14,7 +15,7 @@ export async function getServerSideProps() {
 export default function Menu({ soups }) {
   return (
     <Layout title="Menu">
-      <h1 className="text-xl">Menu</h1>
+      <Heading1 className="text-xl">Menu</Heading1>
       {soups && (
         <ul>
           {Object.keys(soups).map((soup) => {
