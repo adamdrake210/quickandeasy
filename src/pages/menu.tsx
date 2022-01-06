@@ -1,6 +1,8 @@
+import { getGoogleSheetData } from "@/services/googleSheets";
+import { Salads } from "@/components/Salads";
 import { Heading1 } from "@/components/ui/typography/Heading1";
 import { Layout } from "@/layout/Layout";
-import { getGoogleSheetData } from "@/services/googleSheets";
+import { Soups } from "@/Soups";
 
 export async function getServerSideProps() {
   const soups = await getGoogleSheetData();
@@ -16,17 +18,8 @@ export default function Menu({ soups }) {
   return (
     <Layout title="Menu">
       <Heading1 className="text-xl">Menu</Heading1>
-      {soups && (
-        <ul>
-          {Object.keys(soups).map((soup) => {
-            return (
-              <li key={soup}>
-                {soup} - {soups[soup]}
-              </li>
-            );
-          })}
-        </ul>
-      )}
+      <Salads />
+      <Soups soups={soups} />
     </Layout>
   );
 }
