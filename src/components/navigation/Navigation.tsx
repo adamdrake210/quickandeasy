@@ -39,32 +39,32 @@ export const Navigation = () => {
 
   return (
     <nav className="bg-slate-50 left-0 right-0 font-raleway shadow-md fixed z-10">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-screen-lg mx-auto">
         <div className="flex justify-between p-3">
-          <div className="flex  items-center">
+          <div className="flex grow items-center">
             <Link href={HOME} passHref>
               <span className="font-vollkorn text-3xl text-zinc-700 font-extrabold uppercase cursor-pointer mr-8">
                 {COMPANY_NAME}
               </span>
             </Link>
-            {/* Desktop Menu */}
-            <div className="hidden md:flex items-center space-x-12">
-              {MenuItems.map((item, index) => {
-                return (
-                  <Link href={item.url} passHref key={index}>
-                    <div
-                      className={`text-center border-secondary-500 cursor-pointer text-xl uppercase hover:text-green-600 hover:underline ${
-                        router.asPath === item.url
-                          ? "text-green-600 underline"
-                          : "text-gray-500"
-                      }`}
-                    >
-                      <p>{item.label}</p>
-                    </div>
-                  </Link>
-                );
-              })}
-            </div>
+          </div>
+          {/* Desktop Menu */}
+          <div className="hidden md:flex items-center space-x-12">
+            {MenuItems.map((item, index) => {
+              return (
+                <Link href={item.url} passHref key={index}>
+                  <div
+                    className={`text-center border-secondary-500 cursor-pointer text-xl uppercase hover:text-green-600 hover:underline ${
+                      router.asPath === item.url
+                        ? "text-green-600 underline"
+                        : "text-gray-500"
+                    }`}
+                  >
+                    <p>{item.label}</p>
+                  </div>
+                </Link>
+              );
+            })}
           </div>
         </div>
       </div>

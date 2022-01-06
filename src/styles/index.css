@@ -5,6 +5,15 @@
 
 @import "tailwindcss/utilities";
 
+body {
+  background-color: #f2f2f2;
+  background-image: url(https://res.cloudinary.com/dmiizmobu/image/upload/v1641450579/quickandeasy/Background_White_01_opt2.jpg);
+  background-position: center center;
+  background-size: auto;
+  background-repeat: repeat;
+  background-attachment: scroll;
+}
+
 .container {
   min-height: 100vh;
 }
