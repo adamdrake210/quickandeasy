@@ -43,7 +43,7 @@ export const Navigation = () => {
         <div className="flex justify-between p-3">
           <div className="flex grow items-center">
             <Link href={HOME} passHref>
-              <span className="font-vollkorn text-3xl text-zinc-700 font-extrabold uppercase cursor-pointer mr-8">
+              <span className="font-staatliches text-4xl text-green-700 font-extrabold uppercase cursor-pointer mr-8">
                 {COMPANY_NAME}
               </span>
             </Link>
@@ -54,7 +54,7 @@ export const Navigation = () => {
               return (
                 <Link href={item.url} passHref key={index}>
                   <div
-                    className={`text-center border-secondary-500 cursor-pointer text-xl uppercase hover:text-green-600 hover:underline ${
+                    className={`font-staatliches text-center border-secondary-500 cursor-pointer text-2xl uppercase hover:text-green-600 hover:underline ${
                       router.asPath === item.url
                         ? "text-green-600 underline"
                         : "text-gray-500"
