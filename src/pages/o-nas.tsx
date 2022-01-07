@@ -6,7 +6,7 @@ import { Layout } from "@/layout/Layout";
 export default function Onas() {
   return (
     <Layout title="O nás">
-      <Heading1>O Nas</Heading1>
+      <Heading1>O nás</Heading1>
       <div className="flex flex-col-reverse md:flex-row">
         <div className="flex flex-col w-full md:w-2/3 md:pr-8">
           <p className="text-2xl mb-2">
