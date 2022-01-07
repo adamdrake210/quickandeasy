@@ -2,7 +2,6 @@
 @import "tailwindcss/components";
 
 /* Your own custom component styles */
-
 @import "tailwindcss/utilities";
 
 body {
@@ -16,4 +15,8 @@ body {
 
 .container {
   min-height: 100vh;
+}
+
+.flex-col {
+  flex-direction: column;
 }
