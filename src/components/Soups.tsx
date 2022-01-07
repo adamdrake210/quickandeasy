@@ -7,7 +7,7 @@ type SoupsProps = {
 
 export const Soups = ({ soups }: SoupsProps) => {
   return (
-    <section id="soups" className="flex flex-col">
+    <section id="soups" className="flex flex-col mb-8">
       <Heading2>Polévky</Heading2>
       <div>
         {soups && (

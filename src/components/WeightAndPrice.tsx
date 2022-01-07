@@ -3,7 +3,7 @@ import React from "react";
 type WeightAndPriceProps = {
   size: string;
   price: string;
-  title: string;
+  title?: string;
 };
 
 export const WeightAndPrice = ({ title, size, price }: WeightAndPriceProps) => {
