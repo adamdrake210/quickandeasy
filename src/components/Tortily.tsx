@@ -11,7 +11,10 @@ export const Tortily = () => {
       {tortily &&
         tortily.map((tortila) => {
           return (
-            <div className="flex flex-col sm:flex-row justify-between mb-8">
+            <div
+              key={tortila.id}
+              className="flex flex-col sm:flex-row justify-between mb-8"
+            >
               <div className="max-w-full sm:max-w-lg">
                 <header className="flex text-3xl uppercase">
                   <span className="text-zinc-500 mr-4">{tortila.id}.</span>
