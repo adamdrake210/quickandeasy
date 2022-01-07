@@ -15,7 +15,14 @@ export const Salads = () => {
               <div className="max-w-full sm:max-w-lg">
                 <header className="flex text-3xl uppercase">
                   <span className="text-zinc-500 mr-4">{salad.id}.</span>
-                  <span className="text-gray-800">{salad.title}</span>
+                  <div>
+                    <span className="text-gray-800">{salad.title}</span>
+                    {salad.extraTitle && (
+                      <span className="text-gray-800 text-xl">
+                        {salad.extraTitle}
+                      </span>
+                    )}
+                  </div>
                 </header>
                 <div className="py-1 text-green-700 text-2xl">
                   {salad.ingredients}

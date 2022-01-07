@@ -14,7 +14,7 @@ export const Soups = ({ soups }: SoupsProps) => {
           <ul>
             {Object.keys(soups).map((soup) => {
               return (
-                <li className="text-3xl mb-2" key={soup}>
+                <li className="text-2xl sm:text-3xl mb-2" key={soup}>
                   {soup} - {soups[soup]}
                 </li>
               );

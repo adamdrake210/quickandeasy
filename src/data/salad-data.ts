@@ -13,7 +13,7 @@ export const salads: Salads[] = [
   {
     id: "01",
     title: "Caesar Salad",
-    extraTitle: "/ Kuřecí maso",
+    extraTitle: " / Kuřecí",
     ingredients: "Římský salát, kuřecí prsa, parmazán, krutony, Caesar dresink",
     smallSize: "200",
     smallPrice: "105",
