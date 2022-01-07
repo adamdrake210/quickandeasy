@@ -5,7 +5,7 @@ export const photos = [
       "https://res.cloudinary.com/dmiizmobu/image/upload/v1641566895/quickandeasy/DSC_0111_1000x800_id7.jpg",
     width: 1000,
     height: "auto",
-    alt: "Kuchyne",
+    alt: "Kuchyn",
   },
   {
     src: "https://res.cloudinary.com/dmiizmobu/image/upload/v1641566895/quickandeasy/DSC_0200_1000x800_id9.jpg",
@@ -21,7 +21,7 @@ export const photos = [
       "https://res.cloudinary.com/dmiizmobu/image/upload/v1641566895/quickandeasy/DSC_0237_1000x800_id10.jpg",
     width: 1000,
     height: "auto",
-    alt: "Polevka",
+    alt: "Okno",
   },
   {
     src: "https://res.cloudinary.com/dmiizmobu/image/upload/v1641566893/quickandeasy/DSC_0030.jpg",
@@ -29,7 +29,7 @@ export const photos = [
       "https://res.cloudinary.com/dmiizmobu/image/upload/v1641566893/quickandeasy/DSC_0030.jpg",
     width: 1000,
     height: "auto",
-    alt: "Polevka",
+    alt: "Ulice",
   },
   {
     src: "https://res.cloudinary.com/dmiizmobu/image/upload/v1641566892/quickandeasy/DSC_0023.jpg",
@@ -37,7 +37,7 @@ export const photos = [
       "https://res.cloudinary.com/dmiizmobu/image/upload/v1641566892/quickandeasy/DSC_0023.jpg",
     width: 1000,
     height: "auto",
-    alt: "Polevka",
+    alt: "Obraz",
   },
   {
     src: "https://res.cloudinary.com/dmiizmobu/image/upload/v1641566892/quickandeasy/DSC_0018.jpg",
@@ -45,7 +45,7 @@ export const photos = [
       "https://res.cloudinary.com/dmiizmobu/image/upload/v1641566892/quickandeasy/DSC_0018.jpg",
     width: 1000,
     height: "auto",
-    alt: "Polevka",
+    alt: "Quick & Easy",
   },
   {
     src: "https://res.cloudinary.com/dmiizmobu/image/upload/v1641566892/quickandeasy/DSC_0004.jpg",
@@ -53,7 +53,7 @@ export const photos = [
       "https://res.cloudinary.com/dmiizmobu/image/upload/v1641566892/quickandeasy/DSC_0004.jpg",
     width: 1000,
     height: "auto",
-    alt: "Polevka",
+    alt: "Vpredu",
   },
   {
     src: "https://res.cloudinary.com/dmiizmobu/image/upload/v1641566891/quickandeasy/_id18.jpg",
@@ -61,7 +61,7 @@ export const photos = [
       "https://res.cloudinary.com/dmiizmobu/image/upload/v1641566891/quickandeasy/_id18.jpg",
     width: 1000,
     height: "auto",
-    alt: "Polevka",
+    alt: "Kolac",
   },
   {
     src: "https://res.cloudinary.com/dmiizmobu/image/upload/v1641566891/quickandeasy/_id16.jpg",
@@ -69,7 +69,7 @@ export const photos = [
       "https://res.cloudinary.com/dmiizmobu/image/upload/v1641566891/quickandeasy/_id16.jpg",
     width: 1000,
     height: "auto",
-    alt: "Polevka",
+    alt: "Kuchyn",
   },
   {
     src: "https://res.cloudinary.com/dmiizmobu/image/upload/v1641566890/quickandeasy/_id19.jpg",
@@ -85,7 +85,7 @@ export const photos = [
       "https://res.cloudinary.com/dmiizmobu/image/upload/v1641566889/quickandeasy/_id14.jpg",
     width: 1000,
     height: "auto",
-    alt: "Polevka",
+    alt: "Lidi jedi",
   },
   {
     src: "https://res.cloudinary.com/dmiizmobu/image/upload/v1641566892/quickandeasy/DSC_0014_1.jpg",
@@ -93,6 +93,6 @@ export const photos = [
       "https://res.cloudinary.com/dmiizmobu/image/upload/v1641566892/quickandeasy/DSC_0014_1.jpg",
     width: 1000,
     height: "auto",
-    alt: "Polevka",
+    alt: "Zakazniky",
   },
 ];
