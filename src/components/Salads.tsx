@@ -6,13 +6,13 @@ import { WeightAndPrice } from "./WeightAndPrice";
 
 export const Salads = () => {
   return (
-    <section>
+    <section id="salads">
       <Heading2>Saláty</Heading2>
       {salads &&
         salads.map((salad) => {
           return (
-            <div className="flex justify-between  mb-6">
-              <div className="max-w-lg">
+            <div className="flex flex-col sm:flex-row justify-between  mb-8">
+              <div className="max-w-full sm:max-w-lg">
                 <header className="flex text-3xl uppercase">
                   <span className="text-zinc-500 mr-4">{salad.id}.</span>
                   <span className="text-gray-800">{salad.title}</span>

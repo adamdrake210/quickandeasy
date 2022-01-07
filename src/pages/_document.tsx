@@ -4,7 +4,7 @@ import Document, { Head, Html, Main, NextScript } from "next/document";
 export default class extends Document {
   render() {
     return (
-      <Html dir="ltr" lang="cs">
+      <Html dir="ltr" lang="cs" className="scroll-smooth">
         <Head>
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />

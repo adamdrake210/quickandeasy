@@ -1,5 +1,5 @@
 import React from "react";
-import { Heading2 } from "./components/ui/typography/Heading2";
+import { Heading2 } from "./ui/typography/Heading2";
 
 type SoupsProps = {
   soups: any;
@@ -7,14 +7,14 @@ type SoupsProps = {
 
 export const Soups = ({ soups }: SoupsProps) => {
   return (
-    <section className="flex flex-col">
+    <section id="soups" className="flex flex-col">
       <Heading2>Polévky</Heading2>
       <div>
         {soups && (
           <ul>
             {Object.keys(soups).map((soup) => {
               return (
-                <li key={soup}>
+                <li className="text-3xl mb-2" key={soup}>
                   {soup} - {soups[soup]}
                 </li>
               );

@@ -8,7 +8,7 @@ type WeightAndPriceProps = {
 
 export const WeightAndPrice = ({ title, size, price }: WeightAndPriceProps) => {
   return (
-    <div className="flex flex-col items-center p-2 bg-zinc-400/40 min-w-[120px] rounded-lg shadow-lg">
+    <div className="flex flex-col self-center items-center sm:ml-2 p-2 bg-zinc-400/40 min-w-[120px] rounded-lg shadow-lg">
       <p className="text-2xl">{title}</p>
       <p className="text-green-700">
         <span>CCA</span>
