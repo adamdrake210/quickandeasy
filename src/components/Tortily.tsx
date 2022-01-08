@@ -3,6 +3,7 @@ import React from "react";
 import { Heading2 } from "./ui/typography/Heading2";
 import { tortily } from "@/data/tortila-data";
 import { WeightAndPrice } from "./WeightAndPrice";
+import { ProduceIcon } from "./ProduceIcon";
 
 export const Tortily = () => {
   return (
@@ -24,7 +25,9 @@ export const Tortily = () => {
                   {tortila.ingredients}
                 </div>
               </div>
-              <div className="flex space-x-4">
+              <div className="flex space-x-4 items-center">
+                <ProduceIcon icon={tortila.icon} />
+
                 {tortila.price && tortila.size && (
                   <WeightAndPrice size={tortila.size} price={tortila.price} />
                 )}

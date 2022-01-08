@@ -3,6 +3,7 @@ import React from "react";
 import { salads } from "@/data/salad-data";
 import { Heading2 } from "./ui/typography/Heading2";
 import { WeightAndPrice } from "./WeightAndPrice";
+import { ProduceIcon } from "./ProduceIcon";
 
 export const Salads = () => {
   return (
@@ -31,7 +32,8 @@ export const Salads = () => {
                   {salad.ingredients}
                 </div>
               </div>
-              <div className="flex space-x-4">
+              <div className="flex space-x-4 items-center">
+                <ProduceIcon icon={salad.icon} />
                 {salad.smallPrice && salad.smallSize && (
                   <WeightAndPrice
                     title="Malý"
