@@ -3,7 +3,7 @@ import React from "react";
 import { Heading2 } from "./ui/typography/Heading2";
 import { tortily } from "@/data/tortila-data";
 import { WeightAndPrice } from "./WeightAndPrice";
-import { ProduceIcon } from "./ProduceIcon";
+import ProduceIcon from "./ProduceIcon";
 
 export const Tortily = () => {
   return (

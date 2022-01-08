@@ -3,7 +3,7 @@ import React from "react";
 import { salads } from "@/data/salad-data";
 import { Heading2 } from "./ui/typography/Heading2";
 import { WeightAndPrice } from "./WeightAndPrice";
-import { ProduceIcon } from "./ProduceIcon";
+import ProduceIcon from "./ProduceIcon";
 
 export const Salads = () => {
   return (

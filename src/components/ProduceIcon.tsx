@@ -1,14 +1,14 @@
 import { ProduceType, salads, Salads } from "@/data/salad-data";
 import Image from "next/image";
-import React from "react";
+import React, { memo } from "react";
 
 type ProduceIconProps = {
   icon: ProduceType;
 };
 
-export const ProduceIcon = ({ icon }: ProduceIconProps) => {
+const ProduceIcon = ({ icon }: ProduceIconProps) => {
   return (
-    <div>
+    <>
       {icon && icon === "chicken" && (
         <Image width="60" height="60" src="/icons/chicken.svg" />
       )}
@@ -27,6 +27,8 @@ export const ProduceIcon = ({ icon }: ProduceIconProps) => {
       {icon && icon === "pepper" && (
         <Image width="60" height="60" src="/icons/pepper.svg" />
       )}
-    </div>
+    </>
   );
 };
+
+export default memo(ProduceIcon);
