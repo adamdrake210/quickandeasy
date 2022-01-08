@@ -3,6 +3,7 @@ import { ProduceType } from "./salad-data";
 export type Tortila = {
   id: string;
   title: string;
+  titleIcon?: ProduceType;
   ingredients: string;
   size: string;
   price: string;
@@ -48,6 +49,7 @@ export const tortily: Tortila[] = [
   {
     id: "18",
     title: "SPICY QUESADILLA",
+    titleIcon: "pepper",
     ingredients:
       "Kuřecí prsa, jalapenos, rajčata, sušená rajčata, červená cibule, gouda",
     size: "300",
@@ -66,6 +68,7 @@ export const tortily: Tortila[] = [
   {
     id: "20",
     title: "MEXICAN WRAP",
+    titleIcon: "pepper",
     ingredients:
       "Ledový salát, Chilli con carne /mleté hovězí maso, červené fazole, drcená rajčata, oregano, chilli/ zakysaná smetana, kukuřice, gouda",
     size: "320",
