@@ -1,9 +1,12 @@
+import { LocationMap } from "@/components/LocationMap";
+import { Heading1 } from "@/components/ui/typography/Heading1";
 import { Layout } from "@/layout/Layout";
 
 export default function Kontakt() {
   return (
     <Layout title="Kontakt">
-      <h1 className="py-16 text-xl">Kontakt</h1>
+      <Heading1>Kontakt</Heading1>
+      <LocationMap isMarkerShown />
     </Layout>
   );
 }

@@ -1,0 +1,26 @@
+import { GoogleMap, LoadScript, Marker } from "@react-google-maps/api";
+
+const containerStyle = {
+  width: "100%",
+  height: "400px",
+  margin: "24px 0",
+};
+
+type LocationMapProps = {
+  isMarkerShown?: boolean;
+};
+
+export const LocationMap = ({ isMarkerShown }: LocationMapProps) => {
+  return (
+    <LoadScript googleMapsApiKey={process.env.googleMapsApi || ""}>
+      <GoogleMap
+        mapContainerStyle={containerStyle}
+        center={{ lat: 50.09275, lng: 14.446 }}
+        zoom={15}
+      >
+        {/* Child components, such as markers, info windows, etc. */}
+        {isMarkerShown && <Marker position={{ lat: 50.09275, lng: 14.446 }} />}
+      </GoogleMap>
+    </LoadScript>
+  );
+};
