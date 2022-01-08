@@ -3,6 +3,7 @@ import React from "react";
 import { Heading2 } from "./ui/typography/Heading2";
 import { tortily } from "@/data/tortila-data";
 import { WeightAndPrice } from "./WeightAndPrice";
+import ProduceIcon from "./ProduceIcon";
 
 export const Tortily = () => {
   return (
@@ -16,15 +17,20 @@ export const Tortily = () => {
               className="flex flex-col sm:flex-row justify-between mb-8"
             >
               <div className="max-w-full sm:max-w-lg">
-                <header className="flex text-3xl uppercase">
+                <header className="flex text-3xl uppercase items-center h-10">
                   <span className="text-zinc-500 mr-4">{tortila.id}.</span>
-                  <span className="text-gray-800">{tortila.title}</span>
+                  <span className="text-gray-800 mr-2">{tortila.title}</span>
+                  {tortila.titleIcon && (
+                    <ProduceIcon icon={tortila.titleIcon} />
+                  )}
                 </header>
                 <div className="py-1 text-green-700 text-2xl">
                   {tortila.ingredients}
                 </div>
               </div>
-              <div className="flex space-x-4">
+              <div className="flex space-x-4 items-center">
+                <ProduceIcon icon={tortila.icon} />
+
                 {tortila.price && tortila.size && (
                   <WeightAndPrice size={tortila.size} price={tortila.price} />
                 )}

@@ -1,10 +1,13 @@
+import { ProduceType } from "./salad-data";
+
 export type Tortila = {
   id: string;
   title: string;
+  titleIcon?: ProduceType;
   ingredients: string;
   size: string;
   price: string;
-  icon?: string;
+  icon?: ProduceType;
 };
 
 export const tortily: Tortila[] = [
@@ -14,6 +17,7 @@ export const tortily: Tortila[] = [
     ingredients: "Římský salát, kuřecí prsa, parmazán, krutony, Caesar dresink",
     size: "300",
     price: "115",
+    icon: "chicken",
   },
   {
     id: "15",
@@ -22,6 +26,7 @@ export const tortily: Tortila[] = [
       "Ledový salát,kuřecí prsa, slanina, gouda, nakládané cibulky, nakládané okurky, rajčata, Ranch dresink",
     size: "320",
     price: "115",
+    icon: "chicken",
   },
   {
     id: "16",
@@ -30,6 +35,7 @@ export const tortily: Tortila[] = [
       "Ledový salát, kuřecí prsa, slanina, vejce, avokádo, rajčata, modrý sýr, Cobb dresink",
     size: "320",
     price: "115",
+    icon: "chicken",
   },
   {
     id: "17",
@@ -38,14 +44,17 @@ export const tortily: Tortila[] = [
       "Ledový salát, kuřecí prsa, domácí rajčatová salsa, kukuřice, gouda",
     size: "300",
     price: "115",
+    icon: "chicken",
   },
   {
     id: "18",
     title: "SPICY QUESADILLA",
+    titleIcon: "pepper",
     ingredients:
       "Kuřecí prsa, jalapenos, rajčata, sušená rajčata, červená cibule, gouda",
     size: "300",
     price: "115",
+    icon: "chicken",
   },
   {
     id: "19",
@@ -54,14 +63,17 @@ export const tortily: Tortila[] = [
       "Ledový salát, burger z mletého hovězího masa, gouda, rajčata, červená cibule, Barbeque dresink",
     size: "320",
     price: "115",
+    icon: "beef",
   },
   {
     id: "20",
     title: "MEXICAN WRAP",
+    titleIcon: "pepper",
     ingredients:
       "Ledový salát, Chilli con carne /mleté hovězí maso, červené fazole, drcená rajčata, oregano, chilli/ zakysaná smetana, kukuřice, gouda",
     size: "320",
     price: "115",
+    icon: "beef",
   },
   {
     id: "21",
@@ -70,6 +82,7 @@ export const tortily: Tortila[] = [
       "Ledový salát, tuňákové kousky, vařené vejce, sušená rajčata, olivy, rajčata, červená cibule, krutony, Cobb dresink",
     size: "320",
     price: "124",
+    icon: "fish",
   },
   {
     id: "22",
@@ -78,6 +91,7 @@ export const tortily: Tortila[] = [
       "Mix zelených listových salátů, uzený losos, rajčata, červená cibule, okurky, krutony a jogurtový dresink s koprem",
     size: "320",
     price: "124",
+    icon: "fish",
   },
   {
     id: "23",
@@ -86,6 +100,7 @@ export const tortily: Tortila[] = [
       "Mix zelených listů, cherry mozzarella, rajčata, sušená rajčata, bazalkové pesto",
     size: "300",
     price: "115",
+    icon: "vegetarian",
   },
   {
     id: "24",
@@ -94,6 +109,7 @@ export const tortily: Tortila[] = [
       "ledový salát, gouda, balkánský sýr, kukuřice, olivy, rajčata, paprika, okurky, červená cibule , olivový olej",
     size: "300",
     price: "115",
+    icon: "vegetarian",
   },
   {
     id: "25",
@@ -102,6 +118,7 @@ export const tortily: Tortila[] = [
       "Ledový salát, Toffu, kukuřice, olivy, rajčata, paprika, okurky, červená cibule, olivový olej",
     size: "300",
     price: "115",
+    icon: "vegan",
   },
   {
     id: "26",

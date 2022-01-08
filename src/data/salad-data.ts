@@ -1,3 +1,11 @@
+export type ProduceType =
+  | "chicken"
+  | "beef"
+  | "fish"
+  | "vegan"
+  | "vegetarian"
+  | "pepper";
+
 export type Salads = {
   id: string;
   title: string;
@@ -7,6 +15,7 @@ export type Salads = {
   smallPrice: string;
   bigSize?: string;
   bigPrice?: string;
+  icon?: ProduceType;
 };
 
 export const salads: Salads[] = [
@@ -19,6 +28,7 @@ export const salads: Salads[] = [
     smallPrice: "105",
     bigSize: "300",
     bigPrice: "135",
+    icon: "chicken",
   },
   {
     id: "02",
@@ -29,6 +39,7 @@ export const salads: Salads[] = [
     smallPrice: "115",
     bigSize: "350",
     bigPrice: "145",
+    icon: "chicken",
   },
   {
     id: "03",
@@ -39,6 +50,7 @@ export const salads: Salads[] = [
     smallPrice: "110",
     bigSize: "300",
     bigPrice: "140",
+    icon: "chicken",
   },
   {
     id: "04",
@@ -49,6 +61,7 @@ export const salads: Salads[] = [
     smallPrice: "105",
     bigSize: "400",
     bigPrice: "135",
+    icon: "chicken",
   },
   {
     id: "05",
@@ -59,6 +72,7 @@ export const salads: Salads[] = [
     smallPrice: "105",
     bigSize: "400",
     bigPrice: "135",
+    icon: "chicken",
   },
   {
     id: "06",
@@ -69,6 +83,7 @@ export const salads: Salads[] = [
     smallPrice: "118",
     bigSize: "350",
     bigPrice: "148",
+    icon: "fish",
   },
   {
     id: "07",
@@ -79,6 +94,7 @@ export const salads: Salads[] = [
     smallPrice: "118",
     bigSize: "300",
     bigPrice: "148",
+    icon: "fish",
   },
   {
     id: "08",
@@ -96,6 +112,7 @@ export const salads: Salads[] = [
     ingredients: "Cherry rajčata, mozzarella, rukola, bazalkové pesto",
     smallSize: "200",
     smallPrice: "95",
+    icon: "vegetarian",
   },
   {
     id: "10",
@@ -107,6 +124,7 @@ export const salads: Salads[] = [
     smallPrice: "105",
     bigSize: "300",
     bigPrice: "135",
+    icon: "vegetarian",
   },
   {
     id: "11",
@@ -117,6 +135,7 @@ export const salads: Salads[] = [
     smallPrice: "105",
     bigSize: "350",
     bigPrice: "135",
+    icon: "vegetarian",
   },
   {
     id: "12",
@@ -128,6 +147,7 @@ export const salads: Salads[] = [
     smallPrice: "105",
     bigSize: "300",
     bigPrice: "135",
+    icon: "vegetarian",
   },
   {
     id: "13",
@@ -138,5 +158,6 @@ export const salads: Salads[] = [
     smallPrice: "100",
     bigSize: "300",
     bigPrice: "130",
+    icon: "vegetarian",
   },
 ];
