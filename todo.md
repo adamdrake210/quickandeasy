@@ -1,3 +1,4 @@
 - Homepage - all
 - menu - images, extras
 - put on vercel
+- emails - update emailjs services to point to costin
