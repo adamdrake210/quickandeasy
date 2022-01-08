@@ -1,4 +1,3 @@
-- kontakt
 - Homepage - all
 - menu - images, extras
 - put on vercel
