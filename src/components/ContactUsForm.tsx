@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useForm, Controller } from "react-hook-form";
-import emailjs from "@emailjs/browser";
+import emailjs from "emailjs-com";
 import Swal from "sweetalert2";
 
 import { Button } from "./ui/Button";
