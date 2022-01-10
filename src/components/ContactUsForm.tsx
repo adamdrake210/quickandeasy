@@ -67,20 +67,20 @@ export const ContactUsForm = () => {
         name="email"
         label="Email"
         control={control}
-        rules={{ required: "Email je povinné" }}
+        rules={{ required: "Email je povinný" }}
       />
       <ControlledTextField
         name="subject"
         label="Předmět"
         control={control}
-        rules={{ required: "Předmět je povinné" }}
+        rules={{ required: "Předmět je povinný" }}
       />
 
       <Controller
         name="message"
         control={control}
         defaultValue=""
-        rules={{ maxLength: 300, required: "Tehnle field je povinné" }}
+        rules={{ maxLength: 300, required: "Toto pole je povinné" }}
         render={({ field, fieldState: { error } }) => (
           <div className="mb-4">
             <label
@@ -97,7 +97,7 @@ export const ContactUsForm = () => {
               rows={8}
             />
             {error && (
-              <span className="text-red-600 text-sm">Zpráva je povinné</span>
+              <span className="text-red-600 text-sm">Zpráva je povinná</span>
             )}
           </div>
         )}
