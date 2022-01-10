@@ -2,6 +2,7 @@ import { Footer } from "@/components/Footer";
 import { Navigation } from "@/components/navigation/Navigation";
 import { Soups } from "@/components/Soups";
 import { Button } from "@/components/ui/Button";
+import { FacebookSvg } from "@/components/ui/FacebookSvg";
 import { Heading1 } from "@/components/ui/typography/Heading1";
 import { Heading2 } from "@/components/ui/typography/Heading2";
 import { COMPANY_NAME } from "@/constants/constants";
@@ -34,7 +35,7 @@ export default function Home({ soups }) {
         <title>HOME | {COMPANY_NAME}</title>
       </Head>
       <Navigation />
-      <main className={`flex flex-col font-staatliches p-0 pb-20 min-h-screen`}>
+      <main className={`flex flex-col font-staatliches p-0 min-h-screen`}>
         <header
           className="flex items-center p-0 min-h-[600px] bg-green-700 text-white 
           bg-[url('https://res.cloudinary.com/dmiizmobu/image/upload/e_improve,w_400,h_600,c_thumb,g_auto/v1641818294/quickandeasy/header_bg_image.jpg')] 
@@ -72,6 +73,13 @@ export default function Home({ soups }) {
               čerstvé jídlo sebou / tel. 608 326 018
             </Heading2>
           </div>
+        </div>
+
+        {/* social bottom */}
+        <div className="flex flex-col items-center pb-8">
+          <div className="border-t-2 border-black mb-4 w-[50%]"></div>
+          <p className="text-4xl">Follow Us</p>
+          <FacebookSvg />
         </div>
       </main>
       <Footer />
