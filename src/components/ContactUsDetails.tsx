@@ -31,7 +31,7 @@ export const ContactUsDetails = () => {
       <div className="mb-6">
         <Heading2>Otevírací doba</Heading2>
         <div className="text-2xl">
-          <p>Pondelí – Pátek:</p>
+          <p>Pondělí – Pátek:</p>
           <p>10.30 – 15.00</p>
         </div>
       </div>

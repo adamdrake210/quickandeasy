@@ -18,7 +18,7 @@ const MenuItems = [
     active: false,
   },
   {
-    label: "O Nas",
+    label: "O Nás",
     url: ONAS,
     active: false,
   },
