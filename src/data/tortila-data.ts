@@ -23,7 +23,7 @@ export const tortily: Tortila[] = [
     id: "15",
     title: "CHICKEN RANCH CLUB WRAP",
     ingredients:
-      "Ledový salát,kuřecí prsa, slanina, gouda, nakládané cibulky, nakládané okurky, rajčata, Ranch dresink",
+      "Ledový salát, kuřecí prsa, slanina, gouda, nakládané cibulky, nakládané okurky, rajčata, Ranch dresink",
     size: "320",
     price: "115",
     icon: "chicken",
