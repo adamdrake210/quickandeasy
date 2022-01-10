@@ -70,7 +70,7 @@ export default function Home({ soups }) {
               čerstvé saláty a tortily / fresh salads and wraps
             </Heading2>
             <Heading2 className="text-white">
-              čerstvé jídlo se sebou / <br className="md:hidden" /> tel. 608 326
+              čerstvé jídlo s sebou / <br className="md:hidden" /> tel. 608 326
               018
             </Heading2>
           </div>
