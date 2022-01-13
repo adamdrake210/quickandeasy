@@ -1,3 +1,2 @@
 - menu - images
-- download pdf menu: https://drive.google.com/file/d/1nvj11TEhFAh9_rPMTa_v7S0ztdigyBck/view
 - emails - update emailjs services to point to costin
