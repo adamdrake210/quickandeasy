@@ -24,6 +24,15 @@ export default function Menu({ soups }) {
       <Salads />
       <Soups soups={soups} />
       <Tortily />
+      <div className="my-4">
+        <a
+          className="text-3xl text-zinc-700 hover:text-zinc-500 underline"
+          target="_blank"
+          href="https://drive.google.com/file/d/1nvj11TEhFAh9_rPMTa_v7S0ztdigyBck/view"
+        >
+          Stáhnout Menu PDF
+        </a>
+      </div>
     </Layout>
   );
 }

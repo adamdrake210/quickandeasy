@@ -32,12 +32,12 @@ export default function Home({ soups }) {
   return (
     <>
       <Head>
-        <title>HOME | {COMPANY_NAME}</title>
+        <title>Home | {COMPANY_NAME}</title>
       </Head>
       <Navigation />
       <main className={`flex flex-col font-staatliches p-0 min-h-screen`}>
         <header
-          className="flex items-center p-0 min-h-[600px] bg-green-700 text-white 
+          className="flex items-center mb-4 p-0 min-h-[600px] bg-green-700 text-white 
           bg-[url('https://res.cloudinary.com/dmiizmobu/image/upload/e_improve,w_400,h_600,c_thumb,g_auto/v1641818294/quickandeasy/header_bg_image.jpg')] 
           bg-no-repeat 
           bg-center
