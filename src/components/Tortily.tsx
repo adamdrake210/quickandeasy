@@ -17,14 +17,14 @@ export const Tortily = () => {
               className="flex flex-col sm:flex-row justify-between mb-8"
             >
               <div className="max-w-full sm:max-w-lg">
-                <header className="flex text-3xl uppercase items-center h-10">
+                <header className="flex text-2xl sm:text-3xl uppercase items-center h-10">
                   <span className="text-zinc-500 mr-4">{tortila.id}.</span>
                   <span className="text-gray-800 mr-2">{tortila.title}</span>
                   {tortila.titleIcon && (
                     <ProduceIcon icon={tortila.titleIcon} />
                   )}
                 </header>
-                <div className="py-1 text-green-700 text-2xl">
+                <div className="py-1 text-green-700 text-xl sm:text-2xl">
                   {tortila.ingredients}
                 </div>
               </div>
