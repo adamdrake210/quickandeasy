@@ -25,9 +25,9 @@ export const salads: Salads[] = [
     extraTitle: " / Kuřecí",
     ingredients: "Římský salát, kuřecí prsa, parmazán, krutony, Caesar dresink",
     smallSize: "200",
-    smallPrice: "105",
+    smallPrice: "110",
     bigSize: "300",
-    bigPrice: "135",
+    bigPrice: "140",
     icon: "chicken",
   },
   {
@@ -36,9 +36,9 @@ export const salads: Salads[] = [
     ingredients:
       "Ledový salát, kuřecí prsa, slanina, vejce, avokádo, cherry rajčata, modrý sýr, Cobb dresink",
     smallSize: "250",
-    smallPrice: "115",
+    smallPrice: "120",
     bigSize: "350",
-    bigPrice: "145",
+    bigPrice: "150",
     icon: "chicken",
   },
   {
@@ -47,9 +47,9 @@ export const salads: Salads[] = [
     ingredients:
       "Mix zelených listů, kuřecí prsa, avokádo, cherry rajčata, červená cibule, cizrna, Medovo - Hořčičný dresink",
     smallSize: "200",
-    smallPrice: "110",
+    smallPrice: "115",
     bigSize: "300",
-    bigPrice: "140",
+    bigPrice: "145",
     icon: "chicken",
   },
   {
@@ -58,9 +58,9 @@ export const salads: Salads[] = [
     ingredients:
       "Couscous, kuřecí prsa, balkánský sýr, cherry rajčata, paprika,olivy, okurka, kukuřice, červená cibule, rukola, olivový olej",
     smallSize: "300",
-    smallPrice: "105",
+    smallPrice: "110",
     bigSize: "400",
-    bigPrice: "135",
+    bigPrice: "140",
     icon: "chicken",
   },
   {
@@ -69,9 +69,9 @@ export const salads: Salads[] = [
     ingredients:
       "Těstoviny, kuřecí prsa, balkánský sýr, cherry rajčata, paprika, olivy, okurka, kukuřice, červená cibule, rukola, Ranch dresink",
     smallSize: "300",
-    smallPrice: "105",
+    smallPrice: "110",
     bigSize: "400",
-    bigPrice: "135",
+    bigPrice: "140",
     icon: "chicken",
   },
   {
@@ -80,9 +80,9 @@ export const salads: Salads[] = [
     ingredients:
       "Ledový salát, tuňákové kousky, vařené vejce, sušená rajčata, olivy, cherry rajčata, červená cibule, krutony, olivový olej a červený vinný ocet",
     smallSize: "250",
-    smallPrice: "118",
+    smallPrice: "123",
     bigSize: "350",
-    bigPrice: "148",
+    bigPrice: "153",
     icon: "fish",
   },
   {
@@ -91,9 +91,9 @@ export const salads: Salads[] = [
     ingredients:
       "Mix zelených listových salátů, uzený losos, cherry rajčata, červená cibule, okurky, krutony a jogurtový dresink s koprem",
     smallSize: "200",
-    smallPrice: "118",
+    smallPrice: "123",
     bigSize: "300",
-    bigPrice: "148",
+    bigPrice: "153",
     icon: "fish",
   },
   {
@@ -102,16 +102,16 @@ export const salads: Salads[] = [
     ingredients:
       "Baby ŠpenÁt, cherry rajČata, suŠená rajČata, parmazán, vejce, slanina nebo oŘechy, bazalkovÉ pesto",
     smallSize: "200",
-    smallPrice: "105",
+    smallPrice: "110",
     bigSize: "300",
-    bigPrice: "135",
+    bigPrice: "140",
   },
   {
     id: "09",
     title: "Cherry Caprese",
     ingredients: "Cherry rajčata, mozzarella, rukola, bazalkové pesto",
     smallSize: "200",
-    smallPrice: "95",
+    smallPrice: "100",
     icon: "vegetarian",
   },
   {
@@ -121,9 +121,9 @@ export const salads: Salads[] = [
     ingredients:
       "Rukola, kozí sýr, červená řepa, vlašské ořechy, sušená rajčata a Medovo - Hořčičný dresink",
     smallSize: "200",
-    smallPrice: "105",
+    smallPrice: "110",
     bigSize: "300",
-    bigPrice: "135",
+    bigPrice: "140",
     icon: "vegetarian",
   },
   {
@@ -132,9 +132,9 @@ export const salads: Salads[] = [
     ingredients:
       "Těstoviny, cherry rajčata, cherry mozzarella, olivy, sušená rajčata, rukola, bazalkové pesto",
     smallSize: "250",
-    smallPrice: "105",
+    smallPrice: "110",
     bigSize: "350",
-    bigPrice: "135",
+    bigPrice: "140",
     icon: "vegetarian",
   },
   {
@@ -144,9 +144,9 @@ export const salads: Salads[] = [
     ingredients:
       "Mix zelených listů, vejce, avokádo, cherry rajčata, červená cibule, kukuřice, slunečnicová semínka, Cobb dresink",
     smallSize: "200",
-    smallPrice: "105",
+    smallPrice: "110",
     bigSize: "300",
-    bigPrice: "135",
+    bigPrice: "140",
     icon: "vegetarian",
   },
   {
@@ -155,9 +155,9 @@ export const salads: Salads[] = [
     ingredients:
       "Ledový salát, balkánský sýr, cherry rajčata, okurky, olivy, paprika, červená cibule, olivový olej a vinný ocet",
     smallSize: "200",
-    smallPrice: "100",
+    smallPrice: "105",
     bigSize: "300",
-    bigPrice: "130",
+    bigPrice: "135",
     icon: "vegetarian",
   },
 ];
