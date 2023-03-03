@@ -15,7 +15,7 @@ export const WeightAndPrice = ({ title, size, price }: WeightAndPriceProps) => {
         <span className="text-2xl mx-1">{size}</span>
         <span>G</span>
       </p>
-      <p className="text-2xl">{price} Kč</p>
+      {/* <p className="text-2xl">{price} Kč</p> */}
     </div>
   );
 };
