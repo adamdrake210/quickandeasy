@@ -17,7 +17,7 @@ export const Footer = () => {
             Designed by{" "}
             <a
               className="underline"
-              href="https://adamdrake.cz"
+              href="https://adamdrake.dev"
               target="_blank"
             >
               Adam Drake
