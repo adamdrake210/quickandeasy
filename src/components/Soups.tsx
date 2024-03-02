@@ -16,7 +16,7 @@ export const Soups = ({ soups, centered }: SoupsProps) => {
     >
       <Heading2>Polévky</Heading2>
       <p className="text-2xl text-zinc-700 mb-2 font-raleway">
-        Polévka (dle denní nabídky) – 50Kč
+        Polévka (dle denní nabídky) – 55Kč
       </p>
 
       {soups && (
