@@ -24,7 +24,7 @@ export default function Menu({ soups }) {
       <Salads />
       <Soups soups={soups} />
       <Tortily />
-      <div className="my-4">
+      {/* <div className="my-4">
         <a
           className="text-3xl text-zinc-700 hover:text-zinc-500 underline"
           target="_blank"
@@ -32,7 +32,7 @@ export default function Menu({ soups }) {
         >
           Stáhnout Menu PDF
         </a>
-      </div>
+      </div> */}
     </Layout>
   );
 }
