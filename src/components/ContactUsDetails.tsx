@@ -13,7 +13,7 @@ export const ContactUsDetails = () => {
           <p>
             Tel:{" "}
             <a className="underline" href="tel:608326018">
-              608 810 506
+              608 910 315
             </a>
           </p>
           <p>
