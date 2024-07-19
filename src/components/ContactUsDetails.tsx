@@ -12,8 +12,8 @@ export const ContactUsDetails = () => {
         <div className="text-2xl">
           <p>
             Tel:{" "}
-            <a className="underline" href="tel:608326018">
-              608 810 506
+            <a className="underline" href="tel:608910315">
+              608 910 315
             </a>
           </p>
           <p>
