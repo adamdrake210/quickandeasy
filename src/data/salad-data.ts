@@ -25,9 +25,9 @@ export const salads: Salads[] = [
     extraTitle: " / Kuřecí",
     ingredients: "Římský salát, kuřecí prsa, parmazán, krutony, Caesar dresink",
     smallSize: "200",
-    smallPrice: "135",
+    smallPrice: "145",
     bigSize: "300",
-    bigPrice: "165",
+    bigPrice: "175",
     icon: "chicken",
   },
   {
@@ -36,9 +36,9 @@ export const salads: Salads[] = [
     ingredients:
       "Ledový salát, kuřecí prsa, slanina, vejce, avokádo, cherry rajčata, modrý sýr, Cobb dresink",
     smallSize: "250",
-    smallPrice: "145",
+    smallPrice: "155",
     bigSize: "350",
-    bigPrice: "175",
+    bigPrice: "185",
     icon: "chicken",
   },
   {
@@ -47,9 +47,9 @@ export const salads: Salads[] = [
     ingredients:
       "Mix zelených listů, kuřecí prsa, avokádo, cherry rajčata, červená cibule, cizrna, Medovo - Hořčičný dresink",
     smallSize: "200",
-    smallPrice: "140",
+    smallPrice: "150",
     bigSize: "300",
-    bigPrice: "170",
+    bigPrice: "180",
     icon: "chicken",
   },
   {
@@ -58,9 +58,9 @@ export const salads: Salads[] = [
     ingredients:
       "Couscous, kuřecí prsa, balkánský sýr, cherry rajčata, paprika,olivy, okurka, kukuřice, červená cibule, rukola, olivový olej",
     smallSize: "300",
-    smallPrice: "135",
+    smallPrice: "145",
     bigSize: "400",
-    bigPrice: "165",
+    bigPrice: "175",
     icon: "chicken",
   },
   {
@@ -69,9 +69,9 @@ export const salads: Salads[] = [
     ingredients:
       "Těstoviny, kuřecí prsa, balkánský sýr, cherry rajčata, paprika, olivy, okurka, kukuřice, červená cibule, rukola, Ranch dresink",
     smallSize: "300",
-    smallPrice: "135",
+    smallPrice: "145",
     bigSize: "400",
-    bigPrice: "165",
+    bigPrice: "175",
     icon: "chicken",
   },
   {
@@ -80,9 +80,9 @@ export const salads: Salads[] = [
     ingredients:
       "Ledový salát, tuňákové kousky, vařené vejce, sušená rajčata, olivy, cherry rajčata, červená cibule, krutony, olivový olej a červený vinný ocet",
     smallSize: "250",
-    smallPrice: "148",
+    smallPrice: "158",
     bigSize: "350",
-    bigPrice: "178",
+    bigPrice: "188",
     icon: "fish",
   },
   {
@@ -91,9 +91,9 @@ export const salads: Salads[] = [
     ingredients:
       "Mix zelených listových salátů, uzený losos, cherry rajčata, červená cibule, okurky, krutony a jogurtový dresink s koprem",
     smallSize: "200",
-    smallPrice: "148",
+    smallPrice: "158",
     bigSize: "300",
-    bigPrice: "178",
+    bigPrice: "188",
     icon: "fish",
   },
   {
@@ -102,16 +102,16 @@ export const salads: Salads[] = [
     ingredients:
       "Baby ŠpenÁt, cherry rajČata, suŠená rajČata, parmazán, vejce, slanina nebo oŘechy, bazalkovÉ pesto",
     smallSize: "200",
-    smallPrice: "135",
+    smallPrice: "145",
     bigSize: "300",
-    bigPrice: "165",
+    bigPrice: "175",
   },
   {
     id: "09",
     title: "Cherry Caprese",
     ingredients: "Cherry rajčata, mozzarella, rukola, bazalkové pesto",
     smallSize: "200",
-    smallPrice: "125",
+    smallPrice: "135",
     icon: "vegetarian",
   },
   {
@@ -121,9 +121,9 @@ export const salads: Salads[] = [
     ingredients:
       "Rukola, kozí sýr, červená řepa, vlašské ořechy, sušená rajčata a Medovo - Hořčičný dresink",
     smallSize: "200",
-    smallPrice: "135",
+    smallPrice: "145",
     bigSize: "300",
-    bigPrice: "165",
+    bigPrice: "175",
     icon: "vegetarian",
   },
   {
@@ -132,9 +132,9 @@ export const salads: Salads[] = [
     ingredients:
       "Těstoviny, cherry rajčata, cherry mozzarella, olivy, sušená rajčata, rukola, bazalkové pesto",
     smallSize: "250",
-    smallPrice: "135",
+    smallPrice: "145",
     bigSize: "350",
-    bigPrice: "165",
+    bigPrice: "175",
     icon: "vegetarian",
   },
   {
@@ -144,9 +144,9 @@ export const salads: Salads[] = [
     ingredients:
       "Mix zelených listů, vejce, avokádo, cherry rajčata, červená cibule, kukuřice, slunečnicová semínka, Cobb dresink",
     smallSize: "200",
-    smallPrice: "135",
+    smallPrice: "145",
     bigSize: "300",
-    bigPrice: "165",
+    bigPrice: "175",
     icon: "vegetarian",
   },
   {
